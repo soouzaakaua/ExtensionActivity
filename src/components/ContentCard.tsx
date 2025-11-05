@@ -1,6 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Clock, Video, FileText } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 interface ContentCardProps {
   title: string;
@@ -9,9 +10,12 @@ interface ContentCardProps {
   duration?: string;
   thumbnail: string;
   category: string;
+  slug: string;
 }
 
-export const ContentCard = ({ title, description, type, duration, thumbnail, category }: ContentCardProps) => {
+export const ContentCard = ({ title, description, type, duration, thumbnail, category, slug }: ContentCardProps) => {
+  const navigate = useNavigate();
+  
   const typeIcons = {
     video: <Video className="h-4 w-4" />,
     article: <FileText className="h-4 w-4" />,
@@ -25,7 +29,10 @@ export const ContentCard = ({ title, description, type, duration, thumbnail, cat
   };
 
   return (
-    <Card className="group cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-[var(--shadow-medium)] hover:-translate-y-1">
+    <Card 
+      className="group cursor-pointer overflow-hidden transition-all duration-300 hover:shadow-[var(--shadow-medium)] hover:-translate-y-1"
+      onClick={() => navigate(`/conteudo/${slug}`)}
+    >
       <CardContent className="p-0">
         <div className="relative h-48 overflow-hidden bg-muted">
           <img

@@ -40,34 +40,54 @@ const Index = () => {
 
   const featuredContent = [
     {
+      title: "O que são Algoritmos?",
+      description: "Descubra o que são algoritmos e como eles fazem parte do nosso dia a dia!",
+      type: "article" as const,
+      thumbnail: programmingImg,
+      category: "Programação",
+      slug: "algoritmos"
+    },
+    {
+      title: "Quem Cria Nossos Jogos?",
+      description: "Conheça as pessoas incríveis que criam os jogos que você ama jogar!",
+      type: "video" as const,
+      duration: "15 min",
+      thumbnail: gamesImg,
+      category: "Jogos Digitais",
+      slug: "criadores-de-jogos"
+    },
+    {
+      title: "Como Usar ChatGPT e IA",
+      description: "Aprenda a usar inteligência artificial de forma segura e divertida!",
+      type: "article" as const,
+      thumbnail: internetImg,
+      category: "Internet Segura",
+      slug: "chatgpt"
+    },
+    {
       title: "Introdução à Programação com Scratch",
       description: "Aprenda os conceitos básicos de programação de forma visual e divertida",
       type: "video" as const,
       duration: "15 min",
       thumbnail: programmingImg,
-      category: "Programação"
+      category: "Programação",
+      slug: "scratch"
     },
     {
       title: "Como Criar Senhas Seguras",
       description: "Dicas essenciais para proteger suas contas online e navegar com segurança",
       type: "article" as const,
       thumbnail: internetImg,
-      category: "Internet Segura"
+      category: "Internet Segura",
+      slug: "senhas-seguras"
     },
     {
       title: "Robôs que Ajudam o Mundo",
       description: "Conheça robôs incríveis que estão sendo usados para resolver problemas reais",
       type: "news" as const,
       thumbnail: roboticsImg,
-      category: "Robótica"
-    },
-    {
-      title: "Criando Seu Primeiro Jogo",
-      description: "Tutorial passo a passo para criar um jogo simples usando ferramentas gratuitas",
-      type: "video" as const,
-      duration: "20 min",
-      thumbnail: gamesImg,
-      category: "Jogos Digitais"
+      category: "Robótica",
+      slug: "robos-mundo"
     }
   ];
 
