@@ -1,73 +1,54 @@
-# Welcome to your Lovable project
+# TechKids – Educação Digital para Crianças e Adolescentes
 
-## Project info
+## Sobre o Projeto
 
-**URL**: https://lovable.dev/projects/53a0a825-d44d-433b-9b0e-e3ccf2665d26
+O **TechKids** é uma plataforma educacional desenvolvida com o objetivo de **promover inclusão digital para crianças e adolescentes**, oferecendo conteúdos introdutórios sobre tecnologia de forma simples, acessível e interativa.
 
-## How can I edit this code?
+A iniciativa busca incentivar o interesse pela área de tecnologia desde cedo, apresentando temas como:
 
-There are several ways of editing your application.
+- Programação básica
+- Internet segura
+- Introdução à robótica
+- Uso consciente da tecnologia
+- Pensamento lógico e resolução de problemas
 
-**Use Lovable**
+Este projeto foi desenvolvido como parte de uma **atividade extensionista**, com o propósito de utilizar a tecnologia como ferramenta de transformação social e educacional.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/53a0a825-d44d-433b-9b0e-e3ccf2665d26) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## Objetivo da Atividade Extensionista
 
-**Use your preferred IDE**
+A atividade extensionista tem como objetivo aproximar o conhecimento acadêmico da sociedade.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Neste contexto, o **TechKids** foi idealizado para:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- Estimular o aprendizado de tecnologia entre crianças e adolescentes
+- Promover inclusão digital
+- Facilitar o acesso a conteúdos educacionais gratuitos
+- Incentivar o desenvolvimento do pensamento lógico e criativo
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 💻 Tecnologias Utilizadas
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+O projeto foi desenvolvido utilizando tecnologias modernas de desenvolvimento web:
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+Essas tecnologias permitem criar uma aplicação moderna, rápida e responsiva.
 
-Simply open [Lovable](https://lovable.dev/projects/53a0a825-d44d-433b-9b0e-e3ccf2665d26) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## Como Executar o Projeto
 
-Yes, you can!
+Para rodar o projeto localmente, siga os passos abaixo:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+### 1️⃣ Clonar o repositório
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```bash
+git clone <URL_DO_REPOSITORIO>
+```
